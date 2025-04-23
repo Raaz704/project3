@@ -1,0 +1,922 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(197, 190, 181);
+
+  padding: 10px 40px;
+  color: #060000;
+  position: sticky;
+  bottom: 0;
+  z-index: 999;
+ 
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.logo img {
+  /* border-radius: 50px; */
+  height: 150px;
+  padding-left: 60px;
+
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  position: absolute;
+  left: 65%;
+  padding-top: 30px;
+}
+
+.nav-links li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-links li a:hover {
+  color: #f0a500;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+#cont1{
+  /* background-image:url(Skycity_Desktop_-_XdJHn0vdXs6Q.jpg); */
+  background-color: rgb(197, 190, 181);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+
+}
+#cont1 h1{
+  font-size: 175px;
+  font-weight: 800;
+  color: rgb(19, 46, 186);
+  padding-top: 300px;
+  padding-left: 300px;
+
+}
+#cont1 h2{
+  font-size: 50px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  padding-top: 20px;
+  padding-left: 300px;
+
+}
+#newDiv1{
+width: 70%;
+height: 100vh;
+/* border: 1px solid black; */
+}
+#newDiv2{
+  width: 40%;
+  height: 100vh;
+  /* border: 1px solid rgb(254, 10, 10); */
+  }
+  #newDiv2 img{
+    height: 80vh;
+    width: 100%;
+    padding-top: 180px;
+    padding-right: 200px;
+  }
+  #head1{
+    text-align: center;
+    font-size: 65px;
+    margin-top: 100px;
+  }
+  #cont2{
+    /* border: 1px solid black; */
+    width: 100%;
+    /* height: 65vh; */
+
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .cont3{
+    /* border: 1px solid red; */
+    width: 450px;
+    height: 54vh;
+    transition: transform 0.4s ease, filter 0.4s ease;
+  }
+  
+  .cont3:hover{
+    
+      transform: scale(1.03);
+    
+  }
+  #a1{
+    background-image: url(https://m3mindia.com/assets/images/career/c-bgimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cont4{
+   padding-top: 47px;
+   padding-left: 20px;
+
+
+  }
+  .cont4 h2{
+    color: white;
+
+  }
+  .cont4 p{
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+
+  }
+  .img1{
+    height: 180px;
+    width: 160px;
+   margin-top: 110px;
+   margin-left: 30px;
+   
+  }
+  #img2{
+    height: 180px;
+    width: 160px;
+   margin-top: 150px;
+   margin-left: 30px;
+  }
+  #img3{
+    height: 180px;
+    width: 160px;
+   margin-top: 150px;
+   margin-left: 30px;
+  }
+  #a2{
+    background-image: url(https://m3mindia.com/assets/images/career/owner-ship.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #a3{
+    background-image: url(https://m3mindia.com/assets/images/career/result-orientation.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #a4{
+    background-image: url(https://m3mindia.com/assets/images/career/empowerment.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #a5{
+    background-image: url(https://m3mindia.com/assets/images/career/ethics.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+
+
+
+
+
+  #cont5{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 65vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+  }
+  .cont6{
+    /* border: 1px solid red; */
+    width: 600px;
+    height: 54vh;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    transition: .4s ;
+ 
+ 
+    margin-left: 30px;
+ 
+
+  }
+  
+  .cont6:hover{
+    
+  opacity: .80 ;
+  
+  
+    /* opacity: 0.78; */
+  
+
+    
+  }
+  #a6{
+    background-image: url(https://m3mindia.com/assets/images/career/cultural-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  }
+
+  .cont7{
+   padding-top: 47px;
+   padding-left: 20px;
+
+
+  }
+ 
+  .cont7 p{
+    color: white;
+    font-size: 25px;
+    padding-top: 400px;
+
+  }
+ 
+  #a7{
+    background-image: url(https://m3mindia.com/assets/images/career/competition-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #a8{
+    background-image: url(https://m3mindia.com/assets/images/career/career-growth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .para1{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+
+    color: black;
+  }
+
+
+
+  #cont8{
+    width: 100%;
+    /* height: 70vh; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .cont9{
+    height: 65vh;
+    width: 650px;
+    /* border: 1px solid red; */
+    margin-left: 30px;
+
+  }
+  .cont10{
+    width: 650px;
+    height: 40vh;
+    /* border: 1px solid green; */
+    transition: 0.4s ease-in;
+  }
+  #b1 img{
+    width: 650px;
+    height: 40vh;
+  
+  }
+  .cont10:hover{
+    opacity: .7 ;
+
+   
+  }
+
+  #b2 img{
+    width: 650px;
+    height: 40vh;
+  
+  }
+  #b3 img{
+    width: 650px;
+    height: 40vh;
+  
+  }
+  .cont11{
+    width: 650px;
+    height: 25vh;
+    /* border: 1px solid green; */
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .cont11 p{
+    font-size: 23px;
+    color: black;
+    padding-top: 20px;
+  }
+ 
+ 
+
+
+
+
+
+
+
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .logo img{
+    margin-left: 0px;
+  padding-left: 0px;
+  height: 84px;
+
+    
+
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+    padding: 10px 35px;
+    color: #050101;
+ 
+ 
+  }
+  .nav-links {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    left: 0%;
+    background-color: rgb(255, 255, 255);
+
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    padding: 20px;
+    gap: 14px;
+  }
+ 
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 18px;
+  }
+  .hamburger {
+    display: block;
+  }
+  #cont1 {
+    width: 100%;
+    height: 200px;
+  }
+  #cont1 h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(19, 46, 186);
+    padding-top: 60px;
+    padding-left: 20px;
+  
+  }
+  #cont1 h2{
+    font-size: 8px;
+    font-weight: 700;
+    color: rgb(19, 46, 186);
+    padding-top: 0px;
+    padding-left: 20px;
+  
+  }
+
+  #newDiv1{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    }
+    #newDiv2{
+      width: 100%;
+      height: 200px;
+      /* border: 1px solid rgb(254, 10, 10); */
+      }
+
+      #newDiv2 img{
+        height: 150px;
+        width: 100%;
+        padding-top: 30px;
+        padding-right: 0px;
+      }
+      #head1{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+      }
+      #cont2{
+        /* border: 1px solid black; */
+        width: 100%;
+        /* height: 1800px; */
+    
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: space-between;
+        flex-wrap: nowrap;
+      }
+      .cont3{
+        /* border: 1px solid red; */
+        width: 80%;
+        height: 350px;
+      }
+      .cont4 p{
+        color: white;
+        font-size: 17px;
+        padding-top: 10px;
+    
+      }
+      .img1{
+        height: 100px;
+        width: 100px;
+       margin-top: 40px;
+       margin-left: 30px;
+      }
+       #img2{
+    height: 100px;
+    width: 100px;
+   margin-top: 40px;
+   margin-left: 30px;
+  }
+  #img3{
+    height: 100px;
+    width: 100px;
+   margin-top: 40px;
+   margin-left: 30px;
+  }
+
+
+
+
+
+
+
+
+  #cont5{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 1100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: start;
+    flex-wrap: nowrap;
+  }
+  .cont6{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 350px;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .cont6:hover{
+    
+    box-shadow: 0 0px 0px 0px;
+    opacity:10;
+
+    
+  }
+  .cont7 p{
+    color: white;
+    font-size: 17px;
+    padding-top: 210px;
+ 
+
+  }
+  .para1{
+    text-align: center;
+    font-size: 16px;
+   
+    padding-top: 20px;
+    color: black;
+  }
+
+
+  #cont8{
+    width: 100%;
+    /* height: 1150px; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .cont9{
+    height: 55vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-left: 0px;
+    margin-top: 20px;
+
+  }
+  .cont10{
+    width: 100%;
+    height: 30vh;
+    /* border: 1px solid green; */
+    /* margin-top: 20px; */
+
+  }
+  #b1 img{
+    width: 100%;
+    height: 30vh;
+  
+  }
+  #b2 img{
+    width:100%;
+    height: 30vh;
+  
+  }
+  #b3 img{
+    width: 100%;
+    height: 30vh;
+  
+  }
+  .cont11{
+    width: 100%;
+    height: 25vh;
+    /* border: 1px solid green; */
+   
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+  .cont11 p{
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+  }
+ 
+ 
+
+}
+
+@media (min-width:768px )and (max-width:1180px){
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(197, 190, 181);
+  
+    padding: 10px 40px;
+    color: #060000;
+    position: sticky;
+    bottom: 0;
+    z-index: 999;
+   
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .logo img {
+    /* border-radius: 50px; */
+    height: 100px;
+    padding-left: 60px;
+  
+  
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    left: 45%;
+    padding-top: 10px;
+  }
+  
+  .nav-links li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .nav-links li a:hover {
+    color: #f0a500;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 28px;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+
+  #cont1 {
+    width: 100%;
+    height: 350px;
+  }
+  #cont1 h1{
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(19, 46, 186);
+    padding-top: 60px;
+    padding-left: 80px;
+  
+  }
+  #cont1 h2{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(19, 46, 186);
+    padding-top: 0px;
+    padding-left: 70px;
+  
+  }
+
+  #newDiv1{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    }
+    #newDiv2{
+      width: 100%;
+      height: 200px;
+      /* border: 1px solid rgb(254, 10, 10); */
+      }
+      #newDiv2 img{
+        height: 250px;
+        width: 80%;
+        padding-top: 30px;
+        padding-right: 0px;
+      }
+
+
+      #head1{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 40px;
+      }
+      #cont2{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 175vh;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+        flex-wrap: wrap;
+       
+        column-gap: 20px;
+        /* row-gap: 20px; */
+        row-gap: 0px;
+        margin-top: 30px;
+      
+       
+      }
+      .cont3{
+        /* border: 1px solid red; */
+      
+
+        width: 40%;
+        height: 54vh;
+        transition: transform 0.4s ease, filter 0.4s ease;
+      }
+      
+      .cont3:hover{
+        
+          transform: scale(1.03);
+        
+      }
+      #a1{
+        background-image: url(https://m3mindia.com/assets/images/career/c-bgimage.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* padding: 30px; */
+      }
+      .cont4{
+       padding-top: 27px;
+       padding-left: 20px;
+    
+    
+      }
+      .cont4 h2{
+        color: white;
+        font-size: 25px;
+    
+      }
+      .cont4 p{
+        color: white;
+        font-size: 18px;
+        padding-top: 20px;
+    
+      }
+      .img1{
+        height: 140px;
+        width: 140px;
+       margin-top: 10px;
+       margin-left: 30px;
+       
+      }
+      #img2{
+        height: 140px;
+        width: 140px;
+       margin-top: 10px;
+       margin-left: 30px;
+      }
+      #img3{
+        height: 140px;
+        width: 140px;
+       margin-top: 10px;
+       margin-left: 30px;
+      }
+      #a2{
+        background-image: url(https://m3mindia.com/assets/images/career/owner-ship.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      #a3{
+        background-image: url(https://m3mindia.com/assets/images/career/result-orientation.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      #a4{
+        background-image: url(https://m3mindia.com/assets/images/career/empowerment.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      #a5{
+        background-image: url(https://m3mindia.com/assets/images/career/ethics.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    
+      .para1{
+        text-align: center;
+        font-size: 19px;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    
+        color: black;
+      }
+
+
+      #cont5{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 115vh;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .cont6{
+        /* border: 1px solid red; */
+        width: 350px;
+        height: 54vh;
+        /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+        transition: .4s ;
+     
+     
+        margin-left: 0px;
+     
+    
+      }
+      
+      .cont6:hover{
+        
+      opacity: .80 ;
+      
+      
+        /* opacity: 0.78; */
+      
+    
+        
+      }
+      #a6{
+        background-image: url(https://m3mindia.com/assets/images/career/cultural-img.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+      }
+    
+      .cont7{
+       padding-top: 47px;
+       padding-left: 20px;
+    
+    
+      }
+     
+      .cont7 p{
+        color: white;
+        font-size: 22px;
+        padding-top: 230px;
+    
+      }
+     
+      #a7{
+        background-image: url(https://m3mindia.com/assets/images/career/competition-img.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      #a8{
+        background-image: url(https://m3mindia.com/assets/images/career/career-growth.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+
+
+      #cont8{
+        width: 100%;
+        /* height: 0vh; */
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        /* align-items: center; */
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .cont9{
+        height: 37vh;
+        width: 350px;
+        /* border: 1px solid red; */
+        margin-left: 0px;
+    
+      }
+      .cont10{
+        width: 350px;
+        height: 20vh;
+        border: 1px solid green;
+        transition: 0.4s ease-in;
+      }
+      #b1 img{
+        width: 350px;
+        height: 20vh;
+      
+      }
+      .cont10:hover{
+        opacity: .7 ;
+    
+       
+      }
+    
+      #b2 img{
+        width: 350px;
+        height: 20vh;
+      
+      }
+      #b3 img{
+        width: 350px;
+        height: 20vh;
+      
+      }
+      .cont11{
+        width: 350px;
+        height: 25vh;
+        /* border: 1px solid green; */
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      .cont11 p{
+        font-size: 17px;
+        color: black;
+        padding-top: 0px;
+        text-align: center;
+      }
+    
+      .h2{
+        text-align: center;
+      }
+    
+}
